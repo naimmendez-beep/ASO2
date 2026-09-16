@@ -23,4 +23,4 @@ Puedes ver la versión web pública en:
 
 [https://naimmendez-beep.github.io/ASO2/](https://naimmendez-beep.github.io/ASO2/)
 
-© 2025 Naim Mendez
+© 2026 Naim Mendez
