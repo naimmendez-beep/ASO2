@@ -16,7 +16,6 @@ title: "SISTEMES D'INICI"
 * **Procés** -> f(x) intern del SO
   * *Nota:* Aplicacions i serveis -> generen processos (sincronitzar i planificar)
 
----
 
 ## Nivells d'execució
 
@@ -25,10 +24,11 @@ title: "SISTEMES D'INICI"
 * **2-5** -> multiusuari, xarxa, sense...
 * **6** -> reboot
 
----
 
 ## Comandes d'aturada
 
 * `/etc/init.d/cron stop`
 * `service cron stop`
 * `systemctl stop cron`
+
+## 
