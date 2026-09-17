@@ -15,7 +15,7 @@ El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](https://crea
 
 ## Contenido del curso
 - Ubuntu
-### [Sprint1. Sistemes d'inici](Sp1.md)
+### [Sprint1. Sistemes d'inici](Sprint1/Sp1.md)
 
 ### Ús
 Este repositorio se encuentra prepardo para ser publicado con GitHub Pages.
