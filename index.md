@@ -3,7 +3,7 @@ layout: default
 title: "Índex"
 ---
 
-Este repositorio contiene el material del curso de 1r de ASIX desarrollado por Naim Mendez.
+Este repositorio contiene el material del curso de 2o de ASIX desarrollado por Naim Mendez.
 
 - Índice y enlaces a las unidades del curso.
 - Recursos en formato PDF, vídeos, y Google Colab.
