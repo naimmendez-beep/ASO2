@@ -27,4 +27,4 @@ Se debe dar crédito adecuado, proporcionar un enlace a esta licencia e indicar 
 
 ---
 
-© 2025 Naim Méndez
+© 2026 Naim Méndez
