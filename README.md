@@ -3,7 +3,7 @@
 Este repositorio contiene el material del curso desarrollado por Naim Mendez.
 
 ## Contenido
-- [Sprint1. Sistemes d'inici](Sp1.md)
+- [Sprint1. Sistemes d'inici](Sprint1/Sp1.md)
 - 
 - 
 - 
