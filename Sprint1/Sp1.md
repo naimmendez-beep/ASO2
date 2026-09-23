@@ -27,8 +27,7 @@ title: "SISTEMES D'INICI"
 * `service cron stop`
 * `systemctl stop cron`
 
-## 
-
+## Runlevel/Systemv/systemd
 <img width="464" height="287" alt="1" src="https://github.com/user-attachments/assets/1a2ff748-ac26-4c81-a1b3-2bdb30c8e2aa" />
 
 <img width="356" height="113" alt="2" src="https://github.com/user-attachments/assets/50821ad2-3973-4147-92bb-e28044d3a6f1" />
@@ -63,9 +62,15 @@ title: "SISTEMES D'INICI"
 
 <img width="1007" height="122" alt="14" src="https://github.com/user-attachments/assets/c13ede02-11d3-47fa-b8b3-8f6fcd5b4cec" />
 
-<img width="1002" height="376" alt="15" src="https://github.com/user-attachments/assets/8396fff7-c18a-4e49-9b51-2322eded997a" />
+<img width="559" height="215" alt="rescuessh" src="https://github.com/user-attachments/assets/fe244368-a3f4-41e1-aec7-71ce9d25c7b5" />
+
+<img width="1002" heighContraposa l'esquema clàssic SysVinit (basat en scripts a /etc/init.d/ executats seqüencialment segons nivells d'execució) enfront de Systemd (execució paral·lela, gestió per dependències i ús de connectors/cgroups).t="376" alt="15" src="https://github.com/user-attachments/assets/8396fff7-c18a-4e49-9b51-2322eded997a" />
 
 <img width="940" height="340" alt="16" src="https://github.com/user-attachments/assets/cb888500-1d07-461b-99d6-2d911fbb3310" />
+
+<img width="1101" height="382" alt="ssh" src="https://github.com/user-attachments/assets/bf06fed8-e99a-4f21-91ca-34ca454c7734" />
+
+<img width="939" height="293" alt="sshenable" src="https://github.com/user-attachments/assets/e90cf673-c239-4f1a-aa1a-923cb034e5b0" />
 
 <img width="226" height="135" alt="17" src="https://github.com/user-attachments/assets/ea0357c7-7c9d-476d-ab2d-56595e805698" />
 
@@ -77,7 +82,13 @@ title: "SISTEMES D'INICI"
 
 <img width="806" height="680" alt="21" src="https://github.com/user-attachments/assets/e5b67c8c-e633-4b27-a918-8d856890940e" />
 
+<img width="692" height="83" alt="tiempoOSeniniciar" src="https://github.com/user-attachments/assets/e242f4b5-ce8b-49d1-ba51-0bbfd6372a71" />
+
+<img width="559" height="215" alt="rescuessh" src="https://github.com/user-attachments/assets/3162c80f-8ba4-4cf7-bd68-ee78e8a60325" />
 
 
 
 
+4. Activitat: target personalitzat Naim
+
+L'objectiu és crear naim.target i executar una connexió inversa com a root dins de la xarxa privada del laboratori. El servei espera que la xarxa estigui disponible i s'inicia abans de l'entorn gràfic.
