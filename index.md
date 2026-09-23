@@ -11,7 +11,7 @@ Este repositorio contiene el material del curso de 2o de ASIX desarrollado por N
 
 ## Licencia
 
-El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca).
+El contenido está bajo licencia [Sprint1](LICENSE.md)[Creative Commons BY-NC-SA 4.0 ES](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca).
 
 ## Contenido del curso
 - Ubuntu
