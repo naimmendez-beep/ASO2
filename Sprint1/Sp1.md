@@ -64,7 +64,7 @@ title: "SISTEMES D'INICI"
 
 <img width="559" height="215" alt="rescuessh" src="https://github.com/user-attachments/assets/fe244368-a3f4-41e1-aec7-71ce9d25c7b5" />
 
-<img width="1002" heighContraposa l'esquema clàssic SysVinit (basat en scripts a /etc/init.d/ executats seqüencialment segons nivells d'execució) enfront de Systemd (execució paral·lela, gestió per dependències i ús de connectors/cgroups).t="376" alt="15" src="https://github.com/user-attachments/assets/8396fff7-c18a-4e49-9b51-2322eded997a" />
+<img width="1002" height="376" alt="15" src="https://github.com/user-attachments/assets/8396fff7-c18a-4e49-9b51-2322eded997a" />
 
 <img width="940" height="340" alt="16" src="https://github.com/user-attachments/assets/cb888500-1d07-461b-99d6-2d911fbb3310" />
 
