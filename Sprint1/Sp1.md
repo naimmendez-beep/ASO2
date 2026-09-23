@@ -3,7 +3,6 @@ layout: default
 title: "SISTEMES D'INICI"
 ---
 # SISTEMES D'INICI
----
 ## Conceptes
 
 * **Kernel** -> gestiona processos
@@ -87,8 +86,18 @@ title: "SISTEMES D'INICI"
 <img width="559" height="215" alt="rescuessh" src="https://github.com/user-attachments/assets/3162c80f-8ba4-4cf7-bd68-ee78e8a60325" />
 
 
+Activitat: target personalitzat Naim
 
+- L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i auditoria del sistema. Quan el servei de Systemd s'executi, l'script realitzarà les següents accions amb permissos de root:
+- Verificació d'identitat i privilegis: Registrarà l'usuari i el seu UID (que ha de ser 0 per confirmar que s'executa com a root).
 
-4. Activitat: target personalitzat Naim
+Recollida d'informació del sistema:
 
-L'objectiu és crear naim.target i executar una connexió inversa com a root dins de la xarxa privada del laboratori. El servei espera que la xarxa estigui disponible i s'inicia abans de l'entorn gràfic.
+1. Data i hora exacta de l'execució.
+2. Estat actual de la memòria RAM lliure i utilitzada (free -h).
+3. Espai disponible al disc dur (df -h /).
+
+- Generació d'un fitxer de registre (log): Totes aquestes dades s'aniran afegint al fitxer /var/log/naim_practica.log.
+
+- Finalització neta: Retornarà un codi de sortida 0 (exit 0), indicant a Systemd que el servei s'ha completat correctament (Type=oneshot).
+
