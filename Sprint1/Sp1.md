@@ -93,7 +93,11 @@ L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i audit
 ### Verificació d'identitat i privilegis: Registrarà l'usuari i el seu UID (que ha de ser 0 per confirmar que s'executa com a root).
 - Primer es crea el fitxer a la ruta /usr/local/bin
 <img width="351" height="113" alt="script1" src="https://github.com/user-attachments/assets/e3d31c49-93bb-4153-9b5c-cf6b1807710d" />
-- Tot seguit afegim el codi necessari per a que 
+
+
+- Tot seguit afegim el codi necessari per a que façi la comprovació del sistema
+  
+
 ### Recollida d'informació del sistema:
 
 1. Data i hora exacta de l'execució.
