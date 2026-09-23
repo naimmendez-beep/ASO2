@@ -3,11 +3,7 @@ layout: default
 title: "SISTEMES D'INICI"
 ---
 # SISTEMES D'INICI
-
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/d6d2a5fa-8d2d-4d93-aa4a-6054b6f91b4d" />
-
 ---
-
 ## Conceptes
 
 * **Kernel** -> gestiona processos
