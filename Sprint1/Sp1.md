@@ -86,18 +86,21 @@ title: "SISTEMES D'INICI"
 <img width="559" height="215" alt="rescuessh" src="https://github.com/user-attachments/assets/3162c80f-8ba4-4cf7-bd68-ee78e8a60325" />
 
 
-Activitat: target personalitzat Naim
+## Activitat: target personalitzat naim.target
 
-- L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i auditoria del sistema. Quan el servei de Systemd s'executi, l'script realitzarà les següents accions amb permissos de root:
-- Verificació d'identitat i privilegis: Registrarà l'usuari i el seu UID (que ha de ser 0 per confirmar que s'executa com a root).
+L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i auditoria del sistema. Quan el servei de Systemd s'executi, l'script realitzarà les següents accions amb permissos de root:
 
-Recollida d'informació del sistema:
+### Verificació d'identitat i privilegis: Registrarà l'usuari i el seu UID (que ha de ser 0 per confirmar que s'executa com a root).
+- Primer es crea el fitxer a la ruta /usr/local/bin
+<img width="351" height="113" alt="script1" src="https://github.com/user-attachments/assets/e3d31c49-93bb-4153-9b5c-cf6b1807710d" />
+- Tot seguit afegim el codi necessari per a que 
+### Recollida d'informació del sistema:
 
 1. Data i hora exacta de l'execució.
 2. Estat actual de la memòria RAM lliure i utilitzada (free -h).
 3. Espai disponible al disc dur (df -h /).
 
-- Generació d'un fitxer de registre (log): Totes aquestes dades s'aniran afegint al fitxer /var/log/naim_practica.log.
+### Generació d'un fitxer de registre (log): Totes aquestes dades s'aniran afegint al fitxer /var/log/naim_practica.log.
 
-- Finalització neta: Retornarà un codi de sortida 0 (exit 0), indicant a Systemd que el servei s'ha completat correctament (Type=oneshot).
+### Finalització neta: Retornarà un codi de sortida 0 (exit 0), indicant a Systemd que el servei s'ha completat correctament (Type=oneshot).
 
