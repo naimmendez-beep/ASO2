@@ -27,9 +27,9 @@ title: "SISTEMES D'INICI"
 - `systemctl stop cron`
 
 ## Runlevel/Systemv/systemd
-<img width="464" height="287" alt="1" src="https://github.com/user-attachments/assets/1a2ff748-ac26-4c81-a1b3-2bdb30c8e2aa" />
-
 <img width="356" height="113" alt="2" src="https://github.com/user-attachments/assets/50821ad2-3973-4147-92bb-e28044d3a6f1" />
+
+<img width="464" height="287" alt="1" src="https://github.com/user-attachments/assets/1a2ff748-ac26-4c81-a1b3-2bdb30c8e2aa" />
 
 <img width="512" height="355" alt="3" src="https://github.com/user-attachments/assets/96dce2e7-d1d5-45c0-9528-66e15bcf509b" />
 
