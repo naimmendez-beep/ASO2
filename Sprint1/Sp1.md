@@ -5,26 +5,26 @@ title: "SISTEMES D'INICI"
 # SISTEMES D'INICI
 ## Conceptes
 
-* **Kernel** -> gestiona processos
-* **Aplicació** -> programa interactua usuari i executa 1r pla
-* **Servei** -> programa associat SO i 2n pla
-* **Procés** -> f(x) intern del SO
+- **Kernel** -> gestiona processos
+- **Aplicació** -> programa interactua usuari i executa 1r pla
+- **Servei** -> programa associat SO i 2n pla
+- **Procés** -> f(x) intern del SO
   * *Nota:* Aplicacions i serveis -> generen processos (sincronitzar i planificar)
 
 
 ## Nivells d'execució
 
-* **0** - power off
-* **1** - rescue -> 1 usuari (dimonis mínims)
-* **2-5** -> multiusuari, xarxa, sense...
-* **6** -> reboot
+- **0** - power off
+- **1** - rescue -> 1 usuari (dimonis mínims)
+- **2-5** -> multiusuari, xarxa, sense...
+- **6** -> reboot
 
 
 ## Comandes d'aturada
 
-* `/etc/init.d/cron stop`
-* `service cron stop`
-* `systemctl stop cron`
+- `/etc/init.d/cron stop`
+- `service cron stop`
+- `systemctl stop cron`
 
 ## Runlevel/Systemv/systemd
 <img width="464" height="287" alt="1" src="https://github.com/user-attachments/assets/1a2ff748-ac26-4c81-a1b3-2bdb30c8e2aa" />
