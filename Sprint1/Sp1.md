@@ -122,9 +122,18 @@ L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i audit
 
 <img width="626" height="285" alt="imatge" src="https://github.com/user-attachments/assets/9dbf28e9-05fe-46dd-9350-93300a7ab94e" />
 
+- A continuació fem les proves necessàries per habilitar i comprovar l'estat del servei
 
+<img width="853" height="344" alt="imatge" src="https://github.com/user-attachments/assets/08eb00c1-cdf0-4fb8-a293-6dcef6dbb7de" />
 
+- Provem l'aïllament cap al target personalitzat
 
+<img width="461" height="35" alt="script6" src="https://github.com/user-attachments/assets/d82eaa68-e6da-4db7-aac6-232a99f5358d" />
+
+- Un cop ha fet l'aïllament comprovo que ha generat el fitxer
+
+<img width="739" height="610" alt="script7" src="https://github.com/user-attachments/assets/b2ca5d35-e342-4522-96ff-9cdb336dd27a" />
+ 
 ### Generació d'un fitxer de registre (log): Totes aquestes dades s'aniran afegint al fitxer /var/log/naim_practica.log.
 
 ### Finalització neta: Retornarà un codi de sortida 0 (exit 0), indicant a Systemd que el servei s'ha completat correctament (Type=oneshot).
