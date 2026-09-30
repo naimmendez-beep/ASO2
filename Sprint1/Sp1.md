@@ -95,16 +95,15 @@ L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i audit
 
 <img width="351" height="113" alt="script1" src="https://github.com/user-attachments/assets/e3d31c49-93bb-4153-9b5c-cf6b1807710d" />
 
-
-- Tot seguit afegim el codi necessari per a que façi la comprovació del sistema
-  
-<img width="686" height="510" alt="script2" src="https://github.com/user-attachments/assets/54f628e6-ada4-44f3-9123-515f1c24b515" />
-
 ### Recollida d'informació del sistema:
 
 1. Data i hora exacta de l'execució.
 2. Estat actual de la memòria RAM lliure i utilitzada (free -h).
 3. Espai disponible al disc dur (df -h /).
+
+- Tot seguit afegim el codi necessari per a que façi la comprovació del sistema
+
+<img width="861" height="577" alt="script2" src="https://github.com/user-attachments/assets/b06f15ad-4050-4880-a43e-fecf64f7fe61" />
 
 - I li donem permisos a l'arxiu
 
@@ -130,11 +129,14 @@ L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i audit
 
 <img width="461" height="35" alt="script6" src="https://github.com/user-attachments/assets/d82eaa68-e6da-4db7-aac6-232a99f5358d" />
 
+### Generació d'un fitxer de registre (log): Totes aquestes dades s'aniran afegint al fitxer /var/log/naim_practica.log
+
 - Un cop ha fet l'aïllament comprovo que ha generat el fitxer
 
 <img width="739" height="610" alt="script7" src="https://github.com/user-attachments/assets/b2ca5d35-e342-4522-96ff-9cdb336dd27a" />
- 
-### Generació d'un fitxer de registre (log): Totes aquestes dades s'aniran afegint al fitxer /var/log/naim_practica.log.
 
 ### Finalització neta: Retornarà un codi de sortida 0 (exit 0), indicant a Systemd que el servei s'ha completat correctament (Type=oneshot).
 
+- I ja anem a la safata d'entrada i veiem que arriva al correu electronic designat
+
+<img width="676" height="622" alt="imatge" src="https://github.com/user-attachments/assets/bd837bea-2d06-4187-ab26-2bb411ca9254" />
