@@ -98,12 +98,32 @@ L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i audit
 
 - Tot seguit afegim el codi necessari per a que façi la comprovació del sistema
   
+<img width="686" height="510" alt="script2" src="https://github.com/user-attachments/assets/54f628e6-ada4-44f3-9123-515f1c24b515" />
 
 ### Recollida d'informació del sistema:
 
 1. Data i hora exacta de l'execució.
 2. Estat actual de la memòria RAM lliure i utilitzada (free -h).
 3. Espai disponible al disc dur (df -h /).
+
+- I li donem permisos a l'arxiu
+
+<img width="653" height="128" alt="script3" src="https://github.com/user-attachments/assets/6c6d0e2d-12ec-4fa7-b8a1-021448c0f8ff" />
+
+- Creem el target i afegim el següent contingut per a que permeti l'aïllament i vincular-lo al nivell multiusuari
+
+<img width="671" height="160" alt="script4" src="https://github.com/user-attachments/assets/9a64661a-892c-4f93-b382-eca12f0e4aa0" />
+
+- Creem el servei de systemd (naim.service)
+
+<img width="541" height="45" alt="imatge" src="https://github.com/user-attachments/assets/fb69cecc-d6b5-45e8-9f76-71c8cb156a4a" />
+
+- I definim el servei per a que s'executi com a usuari **root** i associar-lo a **naim.target**
+
+<img width="626" height="285" alt="imatge" src="https://github.com/user-attachments/assets/9dbf28e9-05fe-46dd-9350-93300a7ab94e" />
+
+
+
 
 ### Generació d'un fitxer de registre (log): Totes aquestes dades s'aniran afegint al fitxer /var/log/naim_practica.log.
 
