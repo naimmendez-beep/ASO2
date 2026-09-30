@@ -135,7 +135,7 @@ L'script d'aquesta pràctica s'ha dissenyat com una tasca de diagnòstic i audit
 
 <img width="739" height="610" alt="script7" src="https://github.com/user-attachments/assets/b2ca5d35-e342-4522-96ff-9cdb336dd27a" />
 
-### Finalització neta: Retornarà un codi de sortida 0 (exit 0), indicant a Systemd que el servei s'ha completat correctament (Type=oneshot).
+### Finalització neta: Retornarà un codi de sortida 0 (exit 0) al correu designat, indicant a Systemd que el servei s'ha completat correctament (Type=oneshot).
 
 - I ja anem a la safata d'entrada i veiem que arriva al correu electronic designat
 
