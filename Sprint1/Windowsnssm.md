@@ -181,7 +181,7 @@ try {
 </html>
 ```
 
-<img width="890" height="350" alt="imatge" src="https://github.com/user-attachments/assets/fe2fccaa-6e43-4a77-940e-b8be2f61fb1e" />
+<img width="550" height="300" alt="imatge" src="https://github.com/user-attachments/assets/fe2fccaa-6e43-4a77-940e-b8be2f61fb1e" />
 
 <img width="664" height="190" alt="imatge" src="https://github.com/user-attachments/assets/0fb9cc7e-e7f3-487f-b8b1-37ae9186a5a1" />
 
