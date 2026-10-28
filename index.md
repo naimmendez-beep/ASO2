@@ -15,7 +15,8 @@ El contenido está bajo licencia [Sprint1](LICENSE.md)[Creative Commons BY-NC-SA
 
 ## Contenido del curso
 - Ubuntu
-### [Sprint1. Sistemes d'inici](Sprint1/Sp1.md)
+### [Sprint1. Sistemes d'inici](Sprint1/SistemesInici.md)
+### [Sprint1. Administracio de processos](Sprint1/Windowsnssm.md)
 
 ### Ús
 Este repositorio se encuentra prepardo para ser publicado con GitHub Pages.
