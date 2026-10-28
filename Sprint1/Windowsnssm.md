@@ -24,7 +24,8 @@ title: "SISTEMES D'INICI"
 
 - "Contingut de l'arxiu creat"
 
-``param ([int]$Port = 8080)
+```
+param ([int]$Port = 8080)
 
 $listener = New-Object System.Net.HttpListener
 $listener.Prefixes.Add("http://localhost:$Port/")
