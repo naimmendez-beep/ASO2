@@ -182,3 +182,21 @@ try {
 ```
 
 <img width="1920" height="1080" alt="imatge" src="https://github.com/user-attachments/assets/fe2fccaa-6e43-4a77-940e-b8be2f61fb1e" />
+
+<img width="664" height="190" alt="imatge" src="https://github.com/user-attachments/assets/0fb9cc7e-e7f3-487f-b8b1-37ae9186a5a1" />
+
+- Crear i configurar el servei Windows amb NSSM
+
+<img width="425" height="232" alt="imatge" src="https://github.com/user-attachments/assets/2567f8fb-9a28-443e-a267-598e5de5f6eb" />
+
+<img width="346" height="146" alt="imatge" src="https://github.com/user-attachments/assets/45f0cc71-a4eb-4c74-bec9-d2d8e57a011c" />
+
+<img width="412" height="696" alt="imatge" src="https://github.com/user-attachments/assets/fc5c2341-79f4-4b56-9ab8-1254a489e106" />
+
+<img width="423" height="130" alt="imatge" src="https://github.com/user-attachments/assets/b1d64e79-b57f-4b28-94c8-6da41b0256e9" />
+
+- Després de reiniciar la màquina
+
+<img width="446" height="152" alt="imatge" src="https://github.com/user-attachments/assets/8bdbd664-44f4-4b05-9d7a-acf4f659cacb" />
+
+<img width="920" height="465" alt="imatge" src="https://github.com/user-attachments/assets/667222db-81cc-4c0f-a134-30212a8497c5" />
